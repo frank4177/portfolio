@@ -104,7 +104,7 @@ const Works = () => {
         <div className="hove">
           <div className="project-text">
             <div className="year">2021</div>
-            <a href="https://vofshoes.herokuapp.com">VOF Shoe Store </a>
+            <a href="https://vofshoes.herokuapp.com">VOF Shoes</a>
           </div>
           <a href="https://vofshoes.herokuapp.com" className="image-wrapper">
             <GoLinkExternal className="external-link-icon" />
@@ -115,10 +115,10 @@ const Works = () => {
         <div className="hove-mobile">
           <div
             className="project-text"
-            onClick={() => setImageShow1(!imageShow1)}
+            onClick={() => setImageShow1(!imageShow1)} onBlur={() => setImageShow1(false)} tabIndex="0"
           >
             <div className={imageShow1 ? "year2" : "year"}>2022</div>
-            <div className={imageShow1 ? "tytle2" : "tytle"}>VOF Shoe Store </div>
+            <div className={imageShow1 ? "tytle2" : "tytle"}>VOF Shoes</div>
           </div>
           <a
             href="https://vofshoes.herokuapp.com"
@@ -198,7 +198,7 @@ const Works = () => {
         <div className="hove-mobile">
           <div
             className="project-text"
-            onClick={() => setImageShow2(!imageShow2)}
+            onClick={() => setImageShow2(!imageShow2)} onBlur={() => setImageShow2(false)} tabIndex="0"
           >
             <div className={imageShow2 ? "year2" : "year"}>2022</div>
             <div className={imageShow2 ? "tytle2" : "tytle"}>Bible Verse </div>
@@ -255,7 +255,7 @@ const Works = () => {
         <div className="hove-mobile">
           <div
             className="project-text"
-            onClick={() => setImageShow3(!imageShow3)}
+            onClick={() => setImageShow3(!imageShow3)} onBlur={() => setImageShow3(false)} tabIndex="0"
           >
             <div className={imageShow3 ? "year2" : "year"}>2022</div>
             <div className={imageShow3 ? "tytle2" : "tytle"}>Weather App </div>
