@@ -120,7 +120,7 @@ const Works = () => {
             <div className={imageShow1 ? "year2" : "year"}>2022</div>
             <div className={imageShow1 ? "tytle2" : "tytle"}>VOF Shoes</div>
           </div>
-          <a
+          <a  onFocus={() => setImageShow1(true)} tabIndex="0"
             href="https://vofshoes.herokuapp.com"
             className={imageShow1 ? "mobImageShow" : "mobImageNoShow"}
           >
@@ -203,7 +203,7 @@ const Works = () => {
             <div className={imageShow2 ? "year2" : "year"}>2022</div>
             <div className={imageShow2 ? "tytle2" : "tytle"}>Bible Verse </div>
           </div>
-          <a
+          <a onFocus={() => setImageShow2(true)} tabIndex="0"
             href="https://vofshoes.herokuapp.com"
             className={imageShow2 ? "mobImageShow" : "mobImageNoShow"}
           >
@@ -260,7 +260,7 @@ const Works = () => {
             <div className={imageShow3 ? "year2" : "year"}>2022</div>
             <div className={imageShow3 ? "tytle2" : "tytle"}>Weather App </div>
           </div>
-          <a
+          <a onFocus={() => setImageShow3(true)} tabIndex="0"
             href="https://vofshoes.herokuapp.com"
             className={imageShow3 ? "mobImageShow" : "mobImageNoShow"}
           >
