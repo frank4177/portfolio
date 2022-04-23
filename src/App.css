@@ -9,10 +9,9 @@ body{
   display: grid;
   justify-content: center;
   
-  background-image: radial-gradient(circle at 18% 40%, rgba(53, 53, 53,0.06) 0%, rgba(53, 53, 53,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),radial-gradient(circle at 66% 36%, rgba(126, 126, 126,0.06) 0%, rgba(126, 126, 126,0.06) 50%,rgba(70, 70, 70,0.06) 50%, rgba(70, 70, 70,0.06) 100%),radial-gradient(circle at 33% 100%, rgba(237, 237, 237,0.06) 0%, rgba(237, 237, 237,0.06) 50%,rgba(162, 162, 162,0.06) 50%, rgba(162, 162, 162,0.06) 100%),linear-gradient(90deg, hsl(141,0%,89%),hsl(141,0%,89%));
+  /* background-image: radial-gradient(circle at 18% 40%, rgba(53, 53, 53,0.06) 0%, rgba(53, 53, 53,0.06) 50%,rgba(254, 254, 254,0.06) 50%, rgba(254, 254, 254,0.06) 100%),radial-gradient(circle at 66% 36%, rgba(126, 126, 126,0.06) 0%, rgba(126, 126, 126,0.06) 50%,rgba(70, 70, 70,0.06) 50%, rgba(70, 70, 70,0.06) 100%),radial-gradient(circle at 33% 100%, rgba(237, 237, 237,0.06) 0%, rgba(237, 237, 237,0.06) 50%,rgba(162, 162, 162,0.06) 50%, rgba(162, 162, 162,0.06) 100%),linear-gradient(90deg, hsl(141,0%,89%),hsl(141,0%,89%)); */
 
 
-  /* background-image: radial-gradient(circle at 16% 83%, rgba(148, 148, 148,0.06) 0%, rgba(148, 148, 148,0.06) 50%,rgba(63, 63, 63,0.06) 50%, rgba(63, 63, 63,0.06) 100%),radial-gradient(circle at 68% 87%, rgba(66, 66, 66,0.06) 0%, rgba(66, 66, 66,0.06) 50%,rgba(105, 105, 105,0.06) 50%, rgba(105, 105, 105,0.06) 100%),radial-gradient(circle at 38% 50%, rgba(123, 123, 123,0.06) 0%, rgba(123, 123, 123,0.06) 50%,rgba(172, 172, 172,0.06) 50%, rgba(172, 172, 172,0.06) 100%),linear-gradient(90deg, hsl(18,0%,1%),hsl(18,0%,1%)); */
 
   /* background-image: linear-gradient(324deg, transparent 0%, transparent 45%,rgba(186, 186, 186,0.04) 45%, rgba(186, 186, 186,0.04) 47%,transparent 47%, transparent 100%),linear-gradient(208deg, transparent 0%, transparent 40%,rgba(186, 186, 186,0.04) 40%, rgba(186, 186, 186,0.04) 80%,transparent 80%, transparent 100%),linear-gradient(202deg, transparent 0%, transparent 20%,rgba(186, 186, 186,0.04) 20%, rgba(186, 186, 186,0.04) 40%,transparent 40%, transparent 100%),linear-gradient(338deg, transparent 0%, transparent 10%,rgba(186, 186, 186,0.04) 10%, rgba(186, 186, 186,0.04) 72%,transparent 72%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0)); */
 
