@@ -1,0 +1,22 @@
+.social-container{
+    padding: 20px 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color:var(--color)
+}
+
+.social-wrapper{
+    gap: 20px;
+    display: flex;
+}
+
+.social-icon{
+    font-size: 20px;
+    color:var(--color);
+}
+
+.social-container div span{
+    font-family: lobster two;
+}

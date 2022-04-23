@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap');
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.skill-container{
+    margin-top: 100px;
+    padding: 30px 16.5%;
+    max-width: 1366px;
+}
+
+.skill-container .title-wrapper{
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: #6f373c;
+}
+
+.skill-container .aboutt{
+    margin-top: 20px;
+    font-family:Roboto Mono;
+    font-size: 18px;
+    line-height: 30px;
+    color:var(--color)
+}
+
+.skill-container .aboutt span{
+    font-family: lobster two;
+}
+
+
+.skill-container .skill-icons{
+    display: flex;
+    font-size: 2.5rem;
+    gap: 40px;
+    margin-top: 20px;
+    flex-flow: wrap;
+    color: #6f373c;
+}
+
+
+
+@media (max-width: 780px){
+
+    .skill-container{
+        padding: 20px 8%;
+    }
+}

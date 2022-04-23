@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@700&display=swap');
+
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.container{
+    /* background-color: rgb(231, 212, 193); */
+    padding: 30px 16.5% 0px 16.5%;
+    /* position: relative; */
+   
+    position: relative;
+    max-width: 1366px;
+    color:var(--color);
+    
+}
+
+.navbar-wrapper{
+    /* padding: 30px 16.5% 0px 16.5%; */
+    display: flex;
+    justify-content: space-between;
+    font-family:"IBM Plex Sans";
+    max-width: 1366px;
+
+}
+
+
+.logo{
+    display: flex;
+    padding: 6px 0px 0px 0px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 25px;
+}
+
+
+.container .menu-wrapper{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    
+    
+}
+
+.container .menu-wrapper .menu{
+    padding: 10px 20px 10px 20px;
+    /* box-shadow: 1px 2px 4px 0px grey; */
+    border-radius: 5px;
+    text-decoration: none;
+    color:var(--color);
+    font-family: Roboto Mono;
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.container .menu-wrapper .menu:hover{
+    background-color:rgb(214, 198, 181);
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+
+
+@media (max-width: 780px){
+    .container .menu-wrapper{
+        display: none;
+    }
+
+    .menu-toggle{
+        display: block;
+        /* position: absolute; */
+        right: 0;
+        margin-right: 8%;
+        padding-top: 10px;
+        font-size: 25px;
+        z-index:4 ;
+        position: fixed;
+    }
+
+
+    .container{
+        padding: 20px 8%;
+    }
+
+
+    .mobile-menu-wrapper{
+    background-color:rgb(214, 198, 181);
+    position: fixed;
+    display: flex;
+    z-index:4 ;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    right: 0;
+    transition: all 2s, ease;
+    width: 70%;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+   
+    }
+
+    .container .mobile-menu-wrapper .menu{
+    padding-top: 10px;
+    text-decoration: none;
+    color: black;
+       
+    }
+
+    .closeButton{
+        right: -70px;
+        margin-right: 10px;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+}
+

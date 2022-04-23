@@ -1,0 +1,141 @@
+.contact-container{
+    padding: 30px 16%;
+    max-width: 1366px;
+    margin-top: 60px;
+    /* display: flex;
+    flex-direction: column;
+
+    align-items: center; */
+}
+
+.contact-container .contact-title{
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: #6f373c;
+    margin-bottom: 2rem;
+    
+}
+
+
+.contact-container form{
+    display: flex;
+   flex-direction: column;
+   background-color:rgb(214, 198, 181);
+   padding: 30px 50px 30px 50px;
+   width: 60%;
+   gap: 2rem;
+   border-radius: 5px;
+   justify-content: center;
+   font-family:Roboto Mono;
+}
+
+.details-input{
+    height: 50px;
+    background-color:rgb(231, 212, 193);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    width: 100%;
+    
+}
+
+.message-input{
+    background-color:rgb(231, 212, 193);
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-family:Roboto Mono;
+}
+
+.details-input::placeholder{
+    font-size: 20px;
+    
+}
+
+.contact-container form .button{
+    width: 300px;
+    margin: 0 auto;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    background-color: #6f373c;
+    border-radius: 5px;
+    cursor: pointer;
+    color:rgb(214, 198, 181);
+}
+
+.contact-container .messageSuccess{
+    margin: 0 auto;
+    animation-name: mess ;
+    animation-duration: 4s linear;
+    animation-direction: reverse;
+}
+
+@keyframes mess {
+    from{ margin: 0 auto;}
+    to{ margin: 0 auto;}
+}
+
+
+@media (max-width: 780px){
+
+    .contact-container{
+        padding: 20px 8%;
+        
+
+    }
+
+    .contact-container form{
+        width: 75%;
+        padding: 10px 40px 10px 40px;
+       
+    }
+
+    
+
+    .contact-container form .button{
+        width: 100%;
+    }
+        
+}
+
+@media (max-width: 560px){
+    .contact-container .contact-title{
+        font-size: 30px;
+        letter-spacing: 15px;
+    }
+
+    .contact-container{
+        margin: 0 auto;
+    }
+}
+
+
+@media (max-width: 480px){
+    .textt{
+        font-size: 14.5px;
+    }
+
+    .contact-container .contact-title{
+        font-size: 25px;
+        letter-spacing: 15px;
+    }
+}
+
+
+
+@media (max-width: 300px){
+    .contact-container form{
+        padding: 10px 10px 10px 10px;
+        width: 18rem;
+        margin: 0 auto;
+        gap: 1.5rem;
+    }
+
+    .contact-container .contact-title{
+        font-size: 20px;
+        letter-spacing: 15px;
+    }
+}

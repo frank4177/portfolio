@@ -1,0 +1,54 @@
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+}
+
+.services-container{
+    padding: 20px 10%;
+    position: relative;
+    max-width: 1366px;
+    margin-top: 100px;
+    font-family: Rubik Microbe;
+}
+
+.services-container .service-wrapper{
+    margin: 0 auto;
+    width: 310px;
+}
+
+.services-container .services-title{
+    font-size: 30px;
+    letter-spacing: 20px;
+    color: #6f373c;
+    margin-bottom: 5rem;
+    
+}
+
+
+.service-icon{
+    font-size: 3rem;
+    margin-left: 28%;
+    color: #6f373c;
+}
+
+.slick-dots{
+    margin-top: -10rem;
+    top: 100px;
+    right: 110px;
+}
+
+.slick-dots li{
+    margin-left: 20px;
+    font-size: 130px;
+}
+
+.t{
+    color: #6f373c;
+    font-family:Roboto Mono;
+}
+
