@@ -22,7 +22,7 @@ const Showcase = () => {
   return (
     <div className='showCase-container' ref={downTransition}>
         <div className='about-wrapper'>
-            <div className='about-text'>Hi,<br/>Thanks for checking out<br/> my portfolio &#128522;</div>
+            <div className='about-text' >Hi,<br/>Thanks for checking out<br/> my portfolio &#128522;</div>
             {/* <button>Download CV</button> */}
         </div>
         <div className='image-wrapper'>
