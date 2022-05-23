@@ -76,8 +76,6 @@
         width: 120px;
         height:20px;
         box-shadow: 0px 1px 12px 0px grey;
-        /* padding: 5px 5px 19px 5px;
-        background-color: #fff; */
         position: absolute;
         transition: width 1s, height 1s;
         background-color: black;
@@ -96,4 +94,22 @@
 
     }
 
+    
+
+}
+
+@media (max-width: 400px){
+
+    .CVandpic-container button{
+        margin-left: 11rem;
+        font-size: 15px;
+        padding: 10px 10px 10px 10px;
+        width: 150px;
+
+
+    }
+
+    .CVandpic-container{
+        padding: 20px 5% ;  
+    }
 }
