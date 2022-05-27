@@ -18,7 +18,7 @@
    flex-direction: column;
    background-color:rgb(214, 198, 181);
    padding: 30px 50px 30px 50px;
-   max-width: 500px;
+   max-width: 600px;
    min-width: 20px;
    gap: 2rem;
    border-radius: 5px;
@@ -127,8 +127,12 @@
 
 @media (max-width: 330px){
     .contact-container form{
-        
+    
         max-width: 200px;
+    }
+
+    .contact-container .contact-title{
+        font-size: 22px;
     }
 
    
