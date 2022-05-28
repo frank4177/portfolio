@@ -18,7 +18,7 @@
    flex-direction: column;
    background-color:rgb(214, 198, 181);
    padding: 30px 50px 30px 50px;
-   max-width: 600px;
+   max-width: 700px;
    min-width: 20px;
    gap: 2rem;
    border-radius: 5px;
@@ -74,13 +74,6 @@
 
     }
 
-    .contact-container form{
-        max-width: 50%;
-        min-width: 10%;
-        padding: 10px 40px 10px 40px;
-       
-    }
-
     
 
     .contact-container form .button{
@@ -119,7 +112,7 @@
     .contact-container form{
         max-width: 280px;
         min-width: 10%;
-       
+        padding: 30px 30px 30px 30px;
     }
 }
 
@@ -127,8 +120,8 @@
 
 @media (max-width: 330px){
     .contact-container form{
-    
-        max-width: 200px;
+        
+        padding: 30px 20px 30px 20px;
     }
 
     .contact-container .contact-title{

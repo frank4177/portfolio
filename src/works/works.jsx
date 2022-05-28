@@ -126,7 +126,7 @@ const Works = () => {
           <div
             className="project-text"
             onClick={() => setImageShow4(!imageShow4)}
-            onBlur={() => setImageShow3(false)}
+            onBlur={() => setImageShow4(false)}
             tabIndex="0"
           >
             <div className={imageShow4 ? "year2" : "year"}>2022</div>
@@ -156,8 +156,8 @@ const Works = () => {
           </div>
           <div className={about4 ? "project-about" : "project-about2"}>
             <div className="main-about">
-              FoodBuzz is a MERN stack food blog app that enable readers read
-              about delicious recipes. Auhors can also create profile and
+              FoodBuzz is a MERN stack food blog that enable readers read
+              about delicious recipes. Authors can also create profile and
               write/publish/edit/delete posts on the blog.
               <br />
               <br />
@@ -174,7 +174,7 @@ const Works = () => {
               <br /> <br />
               <span>
                 TECH:
-                <br /> ReactJs - NodeJs - MongoDB - ExpressJs - Axios
+                <br /> React Js - Node Js - MongoDB - Express Js  
               </span>
             </div>
             <div className="project-links">
@@ -191,6 +191,7 @@ const Works = () => {
           </div>
         </div>
       </div>
+
 
       <div className="project-wrapper" ref={upTransition1}>
         <div className="hove">
@@ -242,7 +243,7 @@ const Works = () => {
           <div className={about3 ? "project-about" : "project-about2"}>
             <div className="main-about">
               POCKETWATCH is an Ecommerce store that enable users find their
-              favorite pocket watches. Admin can also create/update/delete products via Sanity-io dashboard.
+              favorite pocket watches. Admin can also create/update/delete products via Sanity CMS.
               <br />
               <br />
               <span>
@@ -256,7 +257,7 @@ const Works = () => {
               <br /> <br />
               <span>
                 TECH:
-                <br /> ReactJs - NextJs - Sanity-io
+                <br /> React Js - Next Js - Sanity CMS
               </span>
             </div>
             <div className="project-links">

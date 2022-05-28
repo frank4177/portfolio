@@ -294,7 +294,7 @@ font-size: 15px;
     
 
     .works-container .hove-mobile .project-text{
-        font-size: 2rem;
+        font-size: 1.7rem;
         /* margin-left: 3rem; */
         display: flex;
         align-items: center;
@@ -396,9 +396,9 @@ font-size: 15px;
 
 
 
-@media (max-width: 300px){
+@media (max-width: 330px){
     .works-container .hove-mobile .project-text{
-        font-size: 1rem;
+        font-size: 1.45rem;
         /* margin-left: 3rem; */
         display: flex;
         align-items: center;
@@ -407,6 +407,7 @@ font-size: 15px;
         font-family: Roboto Mono;
         color: #6f373c;
         width: fit-content;
+       
         
     }
 
