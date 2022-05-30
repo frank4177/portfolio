@@ -40,7 +40,7 @@ const CVandPic = () => {
         <div className='pic'ref={upTransition}>
             <img src={PortfolioPicMain} alt="" />
         </div>
-        <button ref={downTransition}><a download href="AGU_FRANKLIN_CV.docx">Download CV <IoMdDownload/></a></button>
+        <button ref={downTransition}><a download href="Franklin_Agu_Resume__.pdf">Download CV <IoMdDownload/></a></button>
     </div>
   )
 }

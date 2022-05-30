@@ -90,7 +90,7 @@ const Skills = () => {
       </div>
       <div className="skill-icons" ref={elll}>
         <Box>
-          <DiMongodb  className="skill-icon"/>
+          <DiMongodb  />
         </Box>
         <Box>
           <DiNodejs  className="skill-icon"/>
