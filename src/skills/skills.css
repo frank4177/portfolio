@@ -38,10 +38,12 @@ body{
 .skill-container .skill-icons{
     display: flex;
     font-size: 2.5rem;
-    gap: 40px;
     margin-top: 20px;
     flex-flow: wrap;
+    gap: 40px;
 }
+
+
 
 
 

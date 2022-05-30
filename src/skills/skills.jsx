@@ -90,51 +90,51 @@ const Skills = () => {
       </div>
       <div className="skill-icons" ref={elll}>
         <Box>
-          <DiMongodb />
+          <DiMongodb  className="skill-icon"/>
         </Box>
         <Box>
-          <DiNodejs />
+          <DiNodejs  className="skill-icon"/>
         </Box>
         <Box>
-          <DiReact />
+          <DiReact  className="skill-icon"/>
         </Box>
         <Box>
-          <SiRedux />
+          <SiRedux  className="skill-icon"/>
         </Box>
         <Box>
-          <DiJavascript1 />
+          <DiJavascript1  className="skill-icon"/>
         </Box>
         <Box>
-          <DiHtml5 />
+          <DiHtml5  className="skill-icon"/>
         </Box>
         <Box>
-          <DiCss3 />
+          <DiCss3  className="skill-icon"/>
         </Box>
         <Box>
-          <DiSass />
+          <DiSass  className="skill-icon"/>
         </Box>
         <Box>
-          <DiBootstrap />
+          <DiBootstrap  className="skill-icon"/>
         </Box>
         
         <Box>
-          <SiMaterialui />
+          <SiMaterialui  className="skill-icon"/>
         </Box>
         <Box>
-          <SiNextdotjs />
+          <SiNextdotjs  className="skill-icon"/>
         </Box>
         <Box>
-          <SiGreensock />
+          <SiGreensock className="skill-icon"/>
         </Box>
         <Box>
-          <IoLogoFirebase />
+          <IoLogoFirebase  className="skill-icon"/>
         </Box>
         <Box>
-          <SiJest />
+          <SiJest  className="skill-icon"/>
         </Box>
 
         <Box>
-          <DiWordpress />
+          <DiWordpress  className="skill-icon"/>
         </Box>
       </div>
     </div>

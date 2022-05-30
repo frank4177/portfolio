@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import '../CVandPic/CVandPic.css'
-import portfolioPic_ from './portfolioPic_.png'
+import PortfolioPicMain from '../PortfolioPicMain.jpg'
 import {gsap, Power4} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import { IoMdDownload } from "react-icons/io";
@@ -38,7 +38,7 @@ const CVandPic = () => {
     <div className='CVandpic-container' id="resume">
         
         <div className='pic'ref={upTransition}>
-            <img src={portfolioPic_} alt="" />
+            <img src={PortfolioPicMain} alt="" />
         </div>
         <button ref={downTransition}><a download href="AGU_FRANKLIN_CV.docx">Download CV <IoMdDownload/></a></button>
     </div>
