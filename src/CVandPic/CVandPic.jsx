@@ -1,9 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import '../CVandPic/CVandPic.css'
+import portfolioPic_ from './portfolioPic_.png'
 import {gsap, Power4} from 'gsap'
 import {ScrollTrigger} from 'gsap/ScrollTrigger'
 import { IoMdDownload } from "react-icons/io";
-gsap.registerPlugin(ScrollTrigger)
+gsap.registerPlugin(ScrollTrigger) 
 
 
 const CVandPic = () => {
@@ -37,7 +38,7 @@ const CVandPic = () => {
     <div className='CVandpic-container' id="resume">
         
         <div className='pic'ref={upTransition}>
-            <img src="https://img.freepik.com/free-photo/closeup-portrait-young-african-american-man-with-hat_273609-4415.jpg?t=st=1649537372~exp=1649537972~hmac=567265534fc4f3f6151dd44a412c27aa0cf4de07a782a149e61e9b94ea7a044b&w=740" alt="" />
+            <img src={portfolioPic_} alt="" />
         </div>
         <button ref={downTransition}><a download href="AGU_FRANKLIN_CV.docx">Download CV <IoMdDownload/></a></button>
     </div>

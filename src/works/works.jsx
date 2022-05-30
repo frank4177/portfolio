@@ -221,7 +221,7 @@ const Works = () => {
           <a
             onMouseDown={(e) => e.preventDefault()}
             tabIndex="0"
-            href="https://FoodBuzz-ecommerce.vercel.app/"
+            href="https://pocketwatch-ecommerce.vercel.app/"
             className={imageShow3 ? "mobImageShow" : "mobImageNoShow"}
           >
             <GoLinkExternal
@@ -321,7 +321,7 @@ const Works = () => {
           </div>
           <div className={about1 ? "project-about" : "project-about2"}>
             <div className="main-about">
-              VOF is a MERN stack shoe store that enables users find
+              VOF is a MERN stack shoe store that enable users find
               their favourite shoes, add to cart and checkout via Paystack
               payment gateway. It is the final project I and two other developers were tasked
               with during our fullstack training at Projaro Institute
@@ -370,9 +370,9 @@ const Works = () => {
         <div className="hove">
           <div className="project-text">
             <div className="year">2021</div>
-            <a href="https://vofshoes.herokuapp.com">Bible Verse </a>
+            <a href="https://random-bible-verse-generator.netlify.app/">Bible Verse </a>
           </div>
-          <a href="https://vofshoes.herokuapp.com" className="image-wrapper">
+          <a href="https://random-bible-verse-generator.netlify.app/" className="image-wrapper">
             <GoLinkExternal className="external-link-icon" />
             <img src={RBV} alt="" />
           </a>
