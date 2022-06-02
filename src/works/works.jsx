@@ -391,13 +391,13 @@ const Works = () => {
           <a
             onMouseDown={(e) => e.preventDefault()}
             tabIndex="0"
-            href="https://vofshoes.herokuapp.com"
+            href="https://random-bible-verse-generator.netlify.app/"
             className={imageShow2 ? "mobImageShow" : "mobImageNoShow"}
           >
             <GoLinkExternal
               className={imageShow2 ? "mobExternal-link-icon" : "noExtLink"}
             />
-            <img src={vofshoes} alt="" />
+            <img src={RBV} alt="" />
           </a>
         </div>
         {/* * mobile end */}

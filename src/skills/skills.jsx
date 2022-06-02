@@ -84,8 +84,8 @@ const Skills = () => {
       <div className="skill-about-wrapper">
       <div className="skill-about" ref={upTransition}>
         My name is <span>F</span>ranklin Agu. I'm a Front End Developer based in
-        Abuja, Nigeria. I have a passion for programming and turning ideas into
-        simple, beautiful, functional websites. My tech skills includes:
+        Abuja, Nigeria. I have a passion for turning ideas into
+        simple, responsive, functional web apps. My tech skills includes:
       </div>
       </div>
       <div className="skill-icons" ref={elll}>
