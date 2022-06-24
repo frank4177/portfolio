@@ -16,9 +16,11 @@ const Showcase = () => {
     gsap.from(el, {y:"-5%" , opacity: 0, ease:Power4.easeOut, duration:5, scrollTrigger: {
       trigger: el
     }})
-    
   
   },[])
+
+
+
   return (
     <div className='showCase-container' ref={downTransition}>
         <div className='about-wrapper'>

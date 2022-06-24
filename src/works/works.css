@@ -118,13 +118,7 @@ font-size: 15px;
     visibility: visible;
 }
 
-/* .works-container .hove:hover > .klun{
-    transition: all 0.7s ease;
-    opacity: 1;
-   height: auto;
-   margin-left: 22rem;
-   margin-top: -10rem;
-} */
+
 
 
 
@@ -134,12 +128,7 @@ font-size: 15px;
     
 }
 
-/* .klun{
-   
-    width: fit-content;
-    cursor: crosshair;
-    
-} */
+
 
 .image-wrapper img{
     width: 100%;
@@ -196,10 +185,6 @@ font-size: 15px;
     margin-left: 3rem;
 }
 
-/* .project-about-dropDown{
-    
-    
-} */
 
 
 .project-about{
