@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from "react";
 import "../works/works.css";
 import { BsGithub } from "react-icons/bs";
 import vofshoes from "../vofshoes.png";
+import cool_dashboard from "../cool_dashboard.png";
 import RBV from "../RBV.png";
 import FoodBuzz from "../FoodBuzz.png";
 import PocketWatch from "../PocketWatch.png";
@@ -17,6 +18,8 @@ const Works = () => {
   const upTransition2 = useRef(null);
   const upTransition3 = useRef(null);
   const upTransition4 = useRef(null);
+  const upTransition5 = useRef(null);
+
 
 
   useEffect(() => {
@@ -89,17 +92,35 @@ const Works = () => {
     });
   }, []);
 
+  useEffect(() => {
+    const ell = upTransition5.current;
+
+    gsap.from(ell, {
+      y: "50%",
+      opacity: 0,
+      ease: Power4.easeOut,
+      duration: 3,
+      scrollTrigger: {
+        trigger: ell,
+      },
+    });
+  }, []);
+
   // for imageShow
   const [imageShow1, setImageShow1] = useState(false);
   const [imageShow2, setImageShow2] = useState(false);
   const [imageShow3, setImageShow3] = useState(false);
   const [imageShow4, setImageShow4] = useState(false);
+  const [imageShow5, setImageShow5] = useState(false);
+
 
   // for about dropdown
   const [about1, setAbout1] = useState(false);
   const [about2, setAbout2] = useState(false);
   const [about3, setAbout3] = useState(false);
   const [about4, setAbout4] = useState(false);
+  const [about5, setAbout5] = useState(false);
+
 
   return (
     <div className="works-container" id="projects">
@@ -439,6 +460,77 @@ const Works = () => {
           </div>
         </div>
       </div>
+
+      <div className="project-wrapper" ref={upTransition5}>
+        <div className="hove">
+          <div className="project-text">
+            <div className="year">2021</div>
+            <a href="https://cool-admin-dashboard.netlify.app/">Cool Dashboard </a>
+          </div>
+          <a href="https://cool-admin-dashboard.netlify.app/" className="image-wrapper">
+            <GoLinkExternal className="external-link-icon" />
+            <img src={cool_dashboard} alt="" />
+          </a>
+        </div>
+        {/* mobile start */}
+        <div className="hove-mobile">
+          <div
+            className="project-text"
+            onClick={() => setImageShow5(!imageShow5)}
+            onBlur={() => setImageShow5(false)}
+            tabIndex="0"
+          >
+            <div className={imageShow5 ? "year2" : "year"}>2022</div>
+            <div className={imageShow5 ? "tytle2" : "tytle"}>Dashboard </div>
+          </div>
+          <a
+            onMouseDown={(e) => e.preventDefault()}
+            tabIndex="0"
+            href="https://cool-admin-dashboard.netlify.app/"
+            className={imageShow5 ? "mobImageShow" : "mobImageNoShow"}
+          >
+            <GoLinkExternal
+              className={imageShow5 ? "mobExternal-link-icon" : "noExtLink"}
+            />
+            <img src={cool_dashboard} alt="" />
+          </a>
+        </div>
+        {/* * mobile end */}
+        <div className="project-about-dropDown">
+          <div
+            className="project-about-title"
+            onClick={() => setAbout5(!about5)}
+            onBlur={() => setAbout5(false)}
+            tabIndex="0"
+          >
+            About <FiChevronDown />
+          </div>
+          <div className={about5 ? "project-about" : "project-about2"}>
+            <div className="main-about" smooth="true">
+              An admin dashboard that tracks users, earnings, orders, balance data. This dashboard is currently under development.
+              <br />
+              <br />
+              <span>
+              FEATURES:
+                <br /> • Track data
+              </span>
+              <br /> 
+              <br /> 
+              TECH:
+              <br /> HTML5 - CSS3 - JavaScript - React - Redux - Firebase
+              <br />
+            </div>
+            <div className="project-links">
+              <BsGithub style={{ fontSize: "22px" }} />
+              <a href="https://github.com/frank4177/Random-Bible-Verse-Generator" style={{ marginLeft: "5px", color: "#6f373c" }} onMouseDown={(e) => e.preventDefault()}>
+                {" "}
+                Source Code
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
       </div>
     </div>
   );
