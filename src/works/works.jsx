@@ -218,10 +218,10 @@ const Works = () => {
         <div className="hove">
           <div className="project-text">
             <div className="year">2021</div>
-            <a href="https://FoodBuzz-ecommerce.vercel.app/">Pocket Watch</a>
+            <a href="https://pocketwatch-ecommerce.vercel.app/">Pocket Watch</a>
           </div>
           <a
-            href="https://FoodBuzz-ecommerce.vercel.app/"
+            href="https://pocketwatch-ecommerce.vercel.app/"
             className="image-wrapper"
           >
             <GoLinkExternal className="external-link-icon" />
